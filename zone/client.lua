@@ -8,9 +8,9 @@ Citizen.CreateThread(function()
         local inzone = 0
         local dist = GetDistanceBetweenCoords(pedpos,1847.916015625,3675.8190917968,33.767009735108,true)
         
-        if GetDistanceBetweenCoords(pedpos,1847.916015625,3675.8190917968,33.767009735108,true) <= 50.0 then
+        if dist <= 50.0 then
             inzone = 1
-        elseif GetDistanceBetweenCoords(pedpos,1847.916015625,3675.8190917968,33.767009735108,true) >= 50.1 then
+        elseif dist >= 50.1 then
             inzone = 0
         end
         
