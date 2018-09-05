@@ -1,0 +1,5 @@
+RegisterServerEvent('restartZones')
+AddEventHandler('restartZones')
+	print("Restarting Zone")
+	ExecuteCommand("restart zone")
+end)
