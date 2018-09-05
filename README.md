@@ -4,5 +4,7 @@ The distance is the length of a RADIUS of a circle, therefor if you put 50, it w
 Just change your coords!
 
 Drag and drop zone folder into resources
+.
 add start zone
+.
 done
